@@ -1,0 +1,110 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+
+.roboto{
+    font-family: 'Roboto',sans-serif;
+}
+
+.monserrat{
+    font-family: 'Montserrat',sans-serif;
+}
+.box{
+    width: 900px;
+    margin: auto;
+}
+.big-banner{
+    background: url(../Image/1.png)no-repeat;
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+     
+}
+.menu{
+    overflow: hidden;
+}
+.logo{
+    float: left;
+}
+.logo h1{
+
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+
+.whiteblue{
+    color: azure;
+}
+.red{
+    background: #fc122d;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+.menulist{
+    float: right;
+}
+.menulist a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;
+    color:#faefef;
+}
+.menulist a:hover{
+    font-weight: 500;
+}
+.banner-text{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 70;
+}
+.banner-text h1{
+    font-weight: 300;
+}
+.bold{
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #fc122d;
+}
+.btn-register{
+    background: #fc122d;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn-register:hover{
+    background: #d60d24;
+    transition: 0,5s;
+}
+
+.col-3{
+    width: 300px;
+    float: left;
+    
+}
+.feature{
+    overflow: hidden; 
+    padding: 50px;
+    text-align: center;
+}
+.feature h3{
+        font-family: 'Montserrat',sans-serif;
+        color: #333;
+        margin: 5px 0 ;
+}
+.feature p{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0px;
+    font-size: 14px;
+    color:#999;
+    font-weight: 300;
+
+}

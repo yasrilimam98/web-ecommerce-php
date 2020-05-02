@@ -1,0 +1,32 @@
+body{
+    background: #34495e;
+}
+
+
+form{
+    background-color: #4CAF50;
+    padding: 20px;
+    width: 450px;
+    margin: 50px auto;
+    
+}
+
+input[type=text],[type=email],[type=password]{
+    width: 280px;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #CCCCCCC;
+}
+
+input[type=submit]{
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #4880B0;
+    border: 1px solid #286090;
+}
+
+input[type=submit]:hover{
+    background-color: #286090;
+}
